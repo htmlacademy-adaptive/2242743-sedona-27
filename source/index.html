@@ -13,7 +13,7 @@
         alt="Барбершоп «Бородинский».">
     </a>
     <nav class="main-nav">
-      <button class="main-nav__toogle"><span class="visually-hidden">Открыть меню</span></button>
+      <button class="main-nav__toogle">Открыть меню</button>
       <div class="main-nav__wrapper">
         <ul class="main-nav_list site-list">
           <li class="site-list__item site-list__item--active">
@@ -45,12 +45,14 @@
       <img class="logo" src="images/welcome.svg" alt="Логотип, добро пожаловать в Седону" width="458" height="352">
     </div>
     <section class="advantages">
-      <section class="info__page">
-        <h2 class="info__title">Седона — небольшой городок в Аризоне,
-          <br>заслуживающий большего!
-        </h2>
-        <p class="info__description">Рассмотрим 5 причин, по которым Седона круче, чем Гранд-Каньон!</p>
-      </section>
+      <div class="info">
+        <section class="info__page">
+          <h2 class="info__title">Седона — небольшой городок в Аризоне,
+            <br>заслуживающий большего!
+          </h2>
+          <p class="info__description">Рассмотрим 5 причин, по которым Седона круче, чем Гранд-Каньон!</p>
+        </section>
+      </div>
       <h2 class="visually-hidden">Наши приемущества</h2>
       <ul class="advantages__list">
         <li class="advantages__item">
@@ -67,8 +69,6 @@
           <img class="advantages-image" src="img/photo-city.png" width="520" height="260" alt="Фото Города">
         </li>
       </ul>
-    </section>
-    <section class="services">
       <ul class="services__list">
         <li class="services__item">
           <h3 class="service__title">Жилье</h3>
@@ -79,7 +79,6 @@
           </p>
         </li>
         <li class="services__item">
-
           <h3 class="service__title">Еда</h3>
           <p class="services__description">
             Всегда заказывайте
@@ -96,8 +95,6 @@
           </p>
         </li>
       </ul>
-    </section>
-    <section class="advantages">
       <ul class="advantages__list">
         <li class="advantages__item">
           <div class="advantages-item-text">
@@ -149,14 +146,16 @@
         </li>
       </ul>
     </section>
-    <section class="info__hotel">
-      <h2 class="info__title">Заинтересовались?</h2>
-      <p class="info__description">
-        Укажите предполагаемые даты поездки,
-        <br> и мы покажем вам лучшие предложения гостиниц в Седоне
-      </p>
-      <a class="info__button" href="#">Найти Гостинницу</a>
-    </section>
+    <div class="info">
+      <section class="info__hotel">
+        <h2 class="info__title">Заинтересовались?</h2>
+        <p class="info__description">
+          Укажите предполагаемые даты поездки,
+          <br> и мы покажем вам лучшие предложения гостиниц в Седоне
+        </p>
+        <a class="info__button" href="#">Найти Гостинницу</a>
+      </section>
+    </div>
   </main>
   <footer class="main-footer">
     <div class="main-footer__wrapper">
