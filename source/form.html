@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html class="page" lang="ru">
+
+<head>
+  <meta charset="utf-8">
+  <title>HTML Academy: Седона</title>
+</head>
+
+<body сlass="page__body">
+  <header class="main-header">
+    <a class="main-header__logo">
+      <img class="main-header__logo-image" src="img/header-logo.svg" width="185" height="96" alt="Седона">
+    </a>
+    <nav class="main-nav">
+      <button class="main-nav__toogle">Открыть меню</button>
+      <ul class="main-nav__list site-list">
+        <li class="site-list__item ">
+          <a href="index.html">
+            Главная
+          </a>
+        </li>
+        <li class="site-list__item">
+          <a href="catalog.html">
+            Фото и видео
+          </a>
+        </li>
+        <li class="site-list__item site-list__item--active">
+          <a href="form.html">
+            Форма отзыва
+          </a>
+        </li>
+        <li class="site-list__item">
+          <a href="#">
+            Html Academy
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <main class="page-content">
+    <div class="welcome">
+      <img class="alt-logo" src="" alt="Логотип, добро пожаловать в Седону" width="" height="">
+    </div>
+    <div class="info">
+      <section class="info__page">
+        <h2 class="info__title">Оставте свой отзыв
+        </h2>
+        <p class="info__description">Помогите нашим отелям стать лучше!
+          <br> оставьте отзыв о них, а также о
+          <br> посещенных вами
+          <br>достопримечательностях
+        </p>
+      </section>
+    </div>
+    <form class="recall-form" action="#" method="get">
+      <fieldset class="recall-form__section recall-form__section-id">
+        <legend class="recall-form__title">Представьтесь:</legend>
+        <ul class="recall-form__id">
+          <li class="recall-form__id-item">
+            <label class="recall-form__id-label">Имя*:</label>
+            <input type="text" name="name" id="name" placeholder="">
+          </li>
+          <li class="recall-form__id-item">
+            <label class="recall-form__id-label"> Фамилия*:</label>
+            <input class="input" type="text" name="surname" id="surname" placeholder="Фамилия">
+          </li>
+          <li class="recall-form__id-item">
+            <label class="recall-form__id-label"> Отчество:</label>
+            <input class="input" type="text" name="middlename" id="middlename" placeholder="Отчество">
+          </li>
+        </ul>
+      </fieldset>
+      <fieldset class="recall-form__section recall-form__section-contacts">
+        <legend class="recall-form__title">Контактная инофрмация:</legend>
+        <ul class="recall-form__contacts-list">
+          <li class="">
+            <label class="recall-form__contacts-label">Контнтактный телефон*:</label>
+            <input class="input" type="number" name="tel" id="tel" placeholder="Введите телефон">
+          </li>
+          <li class="">
+            <label class="recall-form__contacts-label">Электронная почта*:</label>
+            <input class="input" type="email" name="email" id="email" placeholder="Введите e-mail">
+          </li>
+        </ul>
+      </fieldset>
+      <fieldset class="recall-form__section recall-form__section-visited">
+        <legend class="recall-form__title">Посященные достопримечательности:</legend>
+        <ul class="recall-form__visited">
+          <li class="recall-form__visited-item">
+            <input class="" type="checkbox" name="Devil Brige" checked> Мост Дьявола
+          </li>
+          <li class="recall-form__visited-item">
+            <input class="" type="checkbox" name="Bell mountain" checked> Гора-Колокол
+          </li>
+          <li class="recall-form__visited-item">
+
+            <input class="" type="checkbox" name="Slide Park" checked> Слайд-парк
+
+          </li>
+          <li class="recall-form__visited-item">
+            <input class="" type="checkbox" name="Red rocks"> Красные скалы
+          </li>
+        </ul>
+      </fieldset>
+      <fieldset class="recall-form__section recall-form__section-interview">
+        <legend class="recall-form__title">Ваше общее впечатление:</legend>
+        <ul class="recall-form__interview">
+          <li class="recall-form__interview-item">
+            <input class="" type="radio" name="product-group" checked value="hotels"> Скорее положительное
+          </li>
+          <li class="recall-form__interview-item">
+            <input class="" type="radio" name="product-group" value="the motel">Скорее отрицательное
+          </li>
+          <li class="recall-form__interview-item">
+            <input class="" type="radio" name="product-group" value="apartments">Затрудняюсь ответить
+          </li>
+        </ul>
+      </fieldset>
+      <fieldset class="recall-form__section recall-form__section-message">
+        <legend class="recall-form__title">Опишите свои эмоции:</legend>
+        <div class="recall-form__message-wrap">
+          <textarea cols="20" rows="10" placeholder="Опишите подробно все свои восторги"></textarea>
+        </div>
+      </fieldset>
+      <div class="recall-form__bottom-wrap">
+        <button class="" type="submit">Оставить отзыв</button>
+        <span class="recall-form__wran-message">* - Обязательные поля</span>
+      </div>
+    </form>
+  </main>
+  <footer class="main-footer">
+    <div class="main-footer__wrapper">
+      <div class="main-footer__contacts contacts">
+        <b class="contacts__title">
+          #VisitSedona
+        </b>
+      </div>
+    </div>
+    <div class="main-footer__social social">
+      <ul class="social__list">
+        <li class="social__item">
+          <a class="social__link social__link--vkontakte" href="https://vk.com/htmlacademy">Мы в Вконтакте</a>
+        </li>
+        <li class="social__item">
+          <a class="social__link social__link--telegram" href="https://t.me/htmlacademy">Мы в Телеграме</a>
+        </li>
+        <li class="social__item">
+          <a class="social__link social__link--youtube" href="https://www.youtube.com/user/htmlacademyru">Мы в Ютубе</a>
+        </li>
+      </ul>
+    </div>
+    <div class="main-footer__copyright copyright">
+      <b class="copyright__text">Разработано</b>
+      <a class="copyright__link" href="https://htmlacademy.ru/intensive/adaptive">HTML Academy</a>
+    </div>
+  </footer>
+</body>
